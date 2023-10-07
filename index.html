@@ -32,9 +32,29 @@
   <title>Ben Weschler</title>
   <link rel="manifest" href="manifest.json">
 
+  <!-- Weird Reddit Safari WebGL2.0 fix. -->
+  <script>
+    if (
+            navigator.userAgent.indexOf("Safari") !== -1 &&
+            navigator.userAgent.indexOf("Chrome") === -1
+    ) {
+      let originalGetContext = HTMLCanvasElement.prototype.getContext;
+      HTMLCanvasElement.prototype.getContext = function () {
+        let contextType = arguments[0];
+        if (contextType === "webgl2") {
+          return;
+        }
+        return originalGetContext.apply(
+                this,
+                [contextType].concat(Array.prototype.slice.call(arguments, 1)),
+        );
+      };
+    }
+  </script>
+
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2782878103";
+    const serviceWorkerVersion = "1272324195";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
