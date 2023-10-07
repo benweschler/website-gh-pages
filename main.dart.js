@@ -8147,11 +8147,12 @@ EK:function EK(){},
 ahc(){return new A.qD(new A.Sj(),A.z(t.K,t.cP))},
 Yf:function Yf(a,b){this.a=a
 this.b=b},
-l1:function l1(a,b,c,d){var _=this
+l1:function l1(a,b,c,d,e){var _=this
 _.e=a
-_.cy=b
-_.p4=c
-_.a=d},
+_.CW=b
+_.cy=c
+_.p4=d
+_.a=e},
 Sj:function Sj(){},
 Sn:function Sn(){},
 vF:function vF(a){var _=this
@@ -33417,14 +33418,15 @@ if(l==null)l=o.ax.b
 k.a.toString
 s=b==null?B.b4:b
 return new A.tu(A.a4A(new A.pb(o,s,B.a0,B.aD,j,j),l,j,j,n),j)},
-MG(a){var s,r=this,q=null,p=r.a,o=p.cy
-o=o.fr
-s=o
+MG(a){var s,r,q=this,p=null,o=q.a,n=o.cy
+n=n.fr
+s=n
 if(s==null)s=B.d8
-p=p.e
-o=r.gQF()
-r.a.toString
-return new A.uD(q,q,q,new A.a07(),q,q,q,q,q,p,B.B3,q,q,B.yW,r.gQL(),"",q,B.Fp,s,q,o,q,q,B.ig,!1,!1,!1,!1,r.gQo(),!1,q,q,q,new A.hV(r,t.By))},
+n=o.e
+o=o.CW
+r=q.gQF()
+q.a.toString
+return new A.uD(p,p,p,new A.a07(),p,p,p,p,p,n,B.B3,p,p,B.yW,q.gQL(),o,p,B.Fp,s,p,r,p,p,B.ig,!1,!1,!1,!1,q.gQo(),!1,p,p,p,new A.hV(q,t.By))},
 M(a){var s,r=null,q=A.Ai(!1,!1,this.MG(a),r,r,r,r,!0,r,r,new A.a08(),r,r,r)
 this.a.toString
 s=this.d
@@ -55947,7 +55949,7 @@ p=q.d=new A.ir(s,r)}return p},
 M(a){var s=this.gui()
 return A.a7A(new A.l0(new A.a2j(this),null,this.gui(),null),s,t.cy)}}
 A.a2j.prototype={
-$2(a,b){return new A.l1(B.AP,A.aeN(this.a.gui().a).H8(),!1,null)},
+$2(a,b){return new A.l1(B.AP,"Ben Weschler",A.aeN(this.a.gui().a).H8(),!1,null)},
 $S:355}
 A.p8.prototype={
 ai(){return new A.EQ(null,null,B.j)}}
@@ -56164,7 +56166,7 @@ return A.U(null,r)}})
 return A.V($async$o6,r)},
 M(a){var s=null,r=t.l.a(A.b6(a).c.i(0,A.b1(t.q)))
 r.toString
-return A.nv(A.b([new A.jE(new A.a_o(a),B.Ir,s),B.Ev,new A.jE(this.gNQ(),B.Iu,s),B.fi,new A.jE(new A.a_p(this),B.xd,s),B.fi,new A.jE(new A.a_q(),new A.z6(new A.P3(r.c,B.u_),A.a4Y("images/github-invertocat-logo.png",22),s),s),B.fi,new A.pN(new A.a_r(a),s,s,t.EO)],t.E),B.aB,B.aH,B.a8)}}
+return A.nv(A.b([new A.jE(new A.a_o(a),B.Ir,s),B.Ev,new A.jE(this.gNQ(),B.Iu,s),B.fi,new A.jE(new A.a_p(this),B.xd,s),B.fi,new A.jE(new A.a_q(),new A.z6(new A.P3(r.c,B.u_),A.a4Y("assets/images/github-invertocat-logo.png",22),s),s),B.fi,new A.pN(new A.a_r(a),s,s,t.EO)],t.E),B.aB,B.aH,B.a8)}}
 A.a_o.prototype={
 $0(){return A.a5q(this.a,!1,t.l8).yP(0,B.eb,B.cM)},
 $S:0}
@@ -56294,7 +56296,7 @@ $2(a,b){return new A.lZ(new A.WY(),this.a.c.a,null)},
 $S:365}
 A.WY.prototype={
 $1(a){var s=a===B.W?"dark":"light",r=t.zK
-return A.ad(new A.aa(A.b(["login-"+s+".png","no-data-"+s+".png","dashboard-"+s+".png","session-data-"+s+".png","trends-"+s+".png","calendar-"+s+".png","profile-"+s+".png"],t.s),new A.WX("images/sportvue/"+s+"/"),r),!0,r.h("b9.E"))},
+return A.ad(new A.aa(A.b(["login-"+s+".png","no-data-"+s+".png","dashboard-"+s+".png","session-data-"+s+".png","trends-"+s+".png","calendar-"+s+".png","profile-"+s+".png"],t.s),new A.WX("assets/images/sportvue/"+s+"/"),r),!0,r.h("b9.E"))},
 $S:366}
 A.WX.prototype={
 $1(a){return this.a+a},
