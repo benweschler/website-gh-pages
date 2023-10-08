@@ -11637,7 +11637,7 @@ b8=p?B.kI:B.AK
 b9=k?B.kI:B.AL
 c0=p?B.fP:B.fQ
 c1=p?B.bM:B.i
-return A.agN(c2,c2,B.wJ,!1,c0,B.wL,B.F2,c1,B.wZ,B.x_,B.x0,B.xd,a9,g,f,B.ye,B.yg,B.yh,a3,c2,B.zi,B.zj,a6,B.zx,b0,e,B.zy,B.zA,B.zB,B.Ab,B.jV,B.Af,A.alx(c3),B.Ao,B.Aq,i,b1,a8,h,B.AD,b8,a7,B.xv,B.Bi,s,B.F8,B.F9,B.Fa,B.Fk,B.Fl,B.Fm,B.Gd,B.xI,c4,B.H1,o,l,m,b9,b7,B.H5,B.H6,c7,B.HB,B.HC,B.HD,a5,B.HE,B.yR,B.l,B.IY,B.J1,b2,B.y4,B.Jb,B.Jg,B.Jo,B.JJ,b6,B.NI,B.NJ,j,B.NL,b3,a4,!1,r)},
+return A.agN(c2,c2,B.wJ,!1,c0,B.wL,B.F2,c1,B.wZ,B.x_,B.x0,B.xd,a9,g,f,B.ye,B.yg,B.yh,a3,c2,B.zi,B.zj,a6,B.zx,b0,e,B.zy,B.zA,B.zB,B.Ab,B.jV,B.Af,A.alx(c3),B.Ao,B.Aq,i,b1,a8,h,B.AD,b8,a7,B.xv,B.Bi,s,B.F8,B.F9,B.Fa,B.Fk,B.Fl,B.Fm,B.Gd,B.xI,c4,B.H1,o,l,m,b9,b7,B.H5,B.H6,c7,B.HB,B.HC,B.HD,a5,B.HE,B.yQ,B.l,B.IY,B.J1,b2,B.y4,B.Jb,B.Jg,B.Jo,B.JJ,b6,B.NI,B.NJ,j,B.NL,b3,a4,!1,r)},
 agN(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,g0,g1,g2,g3,g4,g5,g6,g7){return new A.fT(d,a0,b3,c3,c5,d3,d4,e4,f4,!1,g7,h,n,o,s,a3,a5,a6,b6,b7,b8,b9,c2,d6,d7,d8,e3,e7,e9,f0,f3,g5,c1,d9,e0,f9,g4,a,c,f,g,i,j,k,l,m,p,q,r,a1,a2,a4,a7,a8,a9,b0,b2,b4,b5,c0,c4,c6,c7,c8,c9,d0,d1,d2,d5,e1,e2,e5,e6,e8,f1,f2,f5,f6,f7,f8,g0,g1,g3,b,b1,e,g2)},
 avC(){return A.alw(B.am,null,null,null)},
 avF(a,b){return $.aos().bM(0,new A.rh(a,b),new A.a5E(a,b))},
@@ -21904,8 +21904,8 @@ _.c=null},
 aau:function aau(a){this.a=a},
 aas:function aas(){},
 aat:function aat(){},
-aqF(a){switch(a.a){case 0:return new A.h2(!1,B.AC,B.i,B.l,B.l,B.i,A.ar(38,0,0,0))
-case 1:return new A.h2(!0,B.AB,B.l,B.i,B.i,B.l,A.ar(38,255,255,255))}},
+aqF(a){switch(a.a){case 0:return new A.h2(!1,B.AB,B.i,B.l,B.l,B.i,A.ar(38,0,0,0))
+case 1:return new A.h2(!0,B.AC,B.l,B.i,B.i,B.l,A.ar(38,255,255,255))}},
 J9:function J9(a,b){this.a=a
 this.b=b},
 h2:function h2(a,b,c,d,e,f,g){var _=this
@@ -26957,7 +26957,7 @@ Xp(){var s=this,r=s.Q
 if(r==null){r=s.Q=new A.t3(s.r)
 r.d=new A.WY(s)}return r},
 NL(a){var s,r=this
-if(B.b.C(B.BZ,a.type)){s=r.Xp()
+if(B.b.C(B.BY,a.type)){s=r.Xp()
 s.toString
 s.sAy(J.iY(r.r.$0(),B.d1))
 if(r.z!==B.kD){r.z=B.kD
@@ -34807,7 +34807,7 @@ j=q[4]
 i=q[5]
 h=q[6]
 g=q[7]
-for(f=n,r=0;r<64;++r,g=h,h=i,i=j,j=d,k=l,l=m,m=f,f=c){e=(g+(((j>>>6|j<<26)^(j>>>11|j<<21)^(j>>>25|j<<7))>>>0)>>>0)+(((j&i^~j&h)>>>0)+(B.C5[r]+s[r]>>>0)>>>0)>>>0
+for(f=n,r=0;r<64;++r,g=h,h=i,i=j,j=d,k=l,l=m,m=f,f=c){e=(g+(((j>>>6|j<<26)^(j>>>11|j<<21)^(j>>>25|j<<7))>>>0)>>>0)+(((j&i^~j&h)>>>0)+(B.C4[r]+s[r]>>>0)>>>0)>>>0
 d=k+e>>>0
 c=e+((((f>>>2|f<<30)^(f>>>13|f<<19)^(f>>>22|f<<10))>>>0)+((f&m^f&l^m&l)>>>0)>>>0)>>>0}q[0]=f+n>>>0
 q[1]=m+q[1]>>>0
@@ -70503,7 +70503,7 @@ A.a2P.prototype={
 $1(a){var s,r=window.navigator.userAgent
 r.toString
 if(!(B.d.C(r,"Mobile")||B.d.C(r,"Tablet")||B.d.C(r,"Android")||B.d.C(r,"iOS")))return
-s=a.b.b>0?B.w:B.z
+s=a.b.b>0?B.z:B.w
 this.a.c.$1(s)},
 $S:13}
 A.a2O.prototype={
@@ -73485,7 +73485,7 @@ B.jU=new A.J(4290502395)
 B.jV=new A.J(4292030255)
 B.yK=new A.J(4292927712)
 B.jW=new A.J(4293128957)
-B.yR=new A.J(4294309365)
+B.yQ=new A.J(4294309365)
 B.yS=new A.J(4294638330)
 B.yU=new A.J(436207616)
 B.yV=new A.J(452984831)
@@ -73501,8 +73501,8 @@ B.NE=new A.bS("Hey;",null,B.M8,null,null,null,null,null,null)
 B.f6=new A.dc(null,15,null,null)
 B.M9=new A.o(!0,B.i,null,"Libre Baskerville",null,null,30,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.No=new A.bS("I'm Ben. I'm a software engineer and UI/UX designer in Los Angeles. I love creating delightful and accessible experiences that enrich people's lives.",null,B.M9,null,null,null,null,null,null)
-B.C7=A.a(s([B.NE,B.f6,B.No]),t.p)
-B.z_=new A.tS(B.aM,B.bX,B.a1,B.cY,null,B.bt,null,B.C7,null)
+B.C6=A.a(s([B.NE,B.f6,B.No]),t.p)
+B.z_=new A.tS(B.aM,B.bX,B.a1,B.cY,null,B.bt,null,B.C6,null)
 B.jZ=new A.p_(0,"none")
 B.z0=new A.p_(1,"waiting")
 B.k_=new A.p_(2,"active")
@@ -73756,16 +73756,16 @@ B.cj=new A.mO(1,"browserGestures")
 B.bC=new A.uJ(0,"ready")
 B.ee=new A.uJ(1,"possible")
 B.Ax=new A.uJ(2,"defunct")
+B.yG=new A.J(4284069363)
+B.yE=new A.J(4281426670)
+B.yR=new A.J(4294349458)
+B.yM=new A.J(4293245577)
+B.AB=new A.uL(B.yG,B.yE,B.yR,B.yM)
 B.yB=new A.J(4280298034)
 B.yO=new A.J(4293473076)
 B.yI=new A.J(4285084149)
 B.yP=new A.J(4293501003)
-B.AB=new A.uL(B.yB,B.yO,B.yI,B.yP)
-B.yG=new A.J(4284069363)
-B.yE=new A.J(4281426670)
-B.yM=new A.J(4293427916)
-B.yQ=new A.J(4294229151)
-B.AC=new A.uL(B.yG,B.yE,B.yM,B.yQ)
+B.AC=new A.uL(B.yB,B.yO,B.yI,B.yP)
 B.kE=new A.Fi(0,"forward")
 B.kF=new A.Fi(1,"reverse")
 B.bT=new A.pp(0,"push")
@@ -73840,8 +73840,8 @@ B.BH=A.a(s([71,73,70,56,57,97]),t.Z)
 B.AU=new A.jl(B.BH,"image/gif")
 B.Bk=A.a(s([255,216,255]),t.Z)
 B.AQ=new A.jl(B.Bk,"image/jpeg")
-B.C0=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
-B.AS=new A.jl(B.C0,"image/webp")
+B.C_=A.a(s([82,73,70,70,null,null,null,null,87,69,66,80]),t.Z)
+B.AS=new A.jl(B.C_,"image/webp")
 B.BS=A.a(s([66,77]),t.Z)
 B.AR=new A.jl(B.BS,"image/bmp")
 B.BI=A.a(s([B.AP,B.AT,B.AU,B.AQ,B.AS,B.AR]),A.ak("A<jl>"))
@@ -73867,8 +73867,8 @@ B.ei=A.a(s([B.dQ,B.fy,B.jc,B.jd,B.fz]),t.QP)
 B.BW=A.a(s([B.dQ]),t.QP)
 B.BX=A.a(s([B.fA,B.fB]),A.ak("A<tl>"))
 B.kP=A.a(s([0,4,12,1,5,13,3,7,15]),t.t)
-B.BZ=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
-B.C5=A.a(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
+B.BY=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
+B.C4=A.a(s([1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298]),t.t)
 B.kQ=A.a(s([u.j,u.G,u.J,u.d,u.L,u.n]),t.s)
 B.Dc=new A.lc("en","US")
 B.kS=A.a(s([B.Dc]),t.ss)
@@ -74798,24 +74798,24 @@ B.BO=A.a(s([54,null,null,8589935158]),t.Z)
 B.BP=A.a(s([55,null,null,8589935159]),t.Z)
 B.BQ=A.a(s([56,null,null,8589935160]),t.Z)
 B.BR=A.a(s([57,null,null,8589935161]),t.Z)
-B.C1=A.a(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.C0=A.a(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.Bo=A.a(s([4294967555,null,4294967555,null]),t.Z)
 B.Bp=A.a(s([4294968065,null,null,8589935154]),t.Z)
 B.Bq=A.a(s([4294968066,null,null,8589935156]),t.Z)
 B.Br=A.a(s([4294968067,null,null,8589935158]),t.Z)
 B.Bs=A.a(s([4294968068,null,null,8589935160]),t.Z)
 B.Bx=A.a(s([4294968321,null,null,8589935157]),t.Z)
-B.C2=A.a(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.C1=A.a(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.Bn=A.a(s([4294967423,null,null,8589935150]),t.Z)
 B.Bt=A.a(s([4294968069,null,null,8589935153]),t.Z)
 B.Bm=A.a(s([4294967309,null,null,8589935117]),t.Z)
 B.Bu=A.a(s([4294968070,null,null,8589935159]),t.Z)
 B.By=A.a(s([4294968327,null,null,8589935152]),t.Z)
-B.C3=A.a(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.C2=A.a(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.Bv=A.a(s([4294968071,null,null,8589935155]),t.Z)
 B.Bw=A.a(s([4294968072,null,null,8589935161]),t.Z)
-B.C4=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.q_=new A.cy(["*",B.Bz,"+",B.BA,"-",B.BB,".",B.BC,"/",B.BD,"0",B.BE,"1",B.BF,"2",B.BK,"3",B.BL,"4",B.BM,"5",B.BN,"6",B.BO,"7",B.BP,"8",B.BQ,"9",B.BR,"Alt",B.C1,"AltGraph",B.Bo,"ArrowDown",B.Bp,"ArrowLeft",B.Bq,"ArrowRight",B.Br,"ArrowUp",B.Bs,"Clear",B.Bx,"Control",B.C2,"Delete",B.Bn,"End",B.Bt,"Enter",B.Bm,"Home",B.Bu,"Insert",B.By,"Meta",B.C3,"PageDown",B.Bv,"PageUp",B.Bw,"Shift",B.C4],A.ak("cy<u,C<n?>>"))
+B.C3=A.a(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.q_=new A.cy(["*",B.Bz,"+",B.BA,"-",B.BB,".",B.BC,"/",B.BD,"0",B.BE,"1",B.BF,"2",B.BK,"3",B.BL,"4",B.BM,"5",B.BN,"6",B.BO,"7",B.BP,"8",B.BQ,"9",B.BR,"Alt",B.C0,"AltGraph",B.Bo,"ArrowDown",B.Bp,"ArrowLeft",B.Bq,"ArrowRight",B.Br,"ArrowUp",B.Bs,"Clear",B.Bx,"Control",B.C1,"Delete",B.Bn,"End",B.Bt,"Enter",B.Bm,"Home",B.Bu,"Insert",B.By,"Meta",B.C2,"PageDown",B.Bv,"PageUp",B.Bw,"Shift",B.C3],A.ak("cy<u,C<n?>>"))
 B.CV=A.a(s([B.l8,null,null,B.pP]),t.L)
 B.CW=A.a(s([B.pB,null,null,B.pQ]),t.L)
 B.CX=A.a(s([B.pC,null,null,B.pR]),t.L)
@@ -74839,7 +74839,7 @@ B.Cj=A.a(s([B.aY,null,null,B.hF]),t.L)
 B.Cx=A.a(s([B.b5,null,null,B.hH]),t.L)
 B.CL=A.a(s([B.hv,null,null,B.hE]),t.L)
 B.CQ=A.a(s([B.dg,B.dg,B.er,null]),t.L)
-B.C6=A.a(s([B.aF,null,null,B.hy]),t.L)
+B.C5=A.a(s([B.aF,null,null,B.hy]),t.L)
 B.Ck=A.a(s([B.bV,null,null,B.hA]),t.L)
 B.D_=A.a(s([B.en,null,null,B.hx]),t.L)
 B.Cl=A.a(s([B.bW,null,null,B.hG]),t.L)
@@ -74848,7 +74848,7 @@ B.CR=A.a(s([B.di,B.di,B.et,null]),t.L)
 B.Cm=A.a(s([B.de,null,null,B.hC]),t.L)
 B.CN=A.a(s([B.df,null,null,B.hI]),t.L)
 B.CS=A.a(s([B.aQ,B.aQ,B.aZ,null]),t.L)
-B.F1=new A.cy(["*",B.CV,"+",B.CW,"-",B.CX,".",B.CY,"/",B.CZ,"0",B.C8,"1",B.C9,"2",B.Ca,"3",B.Cb,"4",B.Cc,"5",B.Cd,"6",B.Ce,"7",B.Cf,"8",B.D7,"9",B.D8,"Alt",B.CP,"AltGraph",B.Da,"ArrowDown",B.Ch,"ArrowLeft",B.Ci,"ArrowRight",B.Cj,"ArrowUp",B.Cx,"Clear",B.CL,"Control",B.CQ,"Delete",B.C6,"End",B.Ck,"Enter",B.D_,"Home",B.Cl,"Insert",B.CM,"Meta",B.CR,"PageDown",B.Cm,"PageUp",B.CN,"Shift",B.CS],A.ak("cy<u,C<f?>>"))
+B.F1=new A.cy(["*",B.CV,"+",B.CW,"-",B.CX,".",B.CY,"/",B.CZ,"0",B.C8,"1",B.C9,"2",B.Ca,"3",B.Cb,"4",B.Cc,"5",B.Cd,"6",B.Ce,"7",B.Cf,"8",B.D7,"9",B.D8,"Alt",B.CP,"AltGraph",B.Da,"ArrowDown",B.Ch,"ArrowLeft",B.Ci,"ArrowRight",B.Cj,"ArrowUp",B.Cx,"Clear",B.CL,"Control",B.CQ,"Delete",B.C5,"End",B.Ck,"Enter",B.D_,"Home",B.Cl,"Insert",B.CM,"Meta",B.CR,"PageDown",B.Cm,"PageUp",B.CN,"Shift",B.CS],A.ak("cy<u,C<f?>>"))
 B.F2=new A.vz(null,null,null,null,null,null,null,null)
 B.yH=new A.J(4284790262)
 B.yF=new A.J(4282557941)
@@ -75505,11 +75505,11 @@ B.MJ=new A.o(!0,null,null,null,null,null,12,null,null,1.33,null,null,1.25,null,n
 B.Nm=new A.bS("source code",null,B.MJ,null,null,null,null,null,null)
 B.JO=new A.fn("Update:",null,B.ax,B.fd)
 B.JL=new A.fn(" So close! Everything should be up and running ",null,B.ax,null)
-B.JN=new A.fn("within or or two hours",null,B.ax,B.fd)
+B.JM=new A.fn("within one or two hours",null,B.ax,B.fd)
 B.JP=new A.fn(" at the very latest.",null,B.ax,null)
-B.BY=A.a(s([B.JO,B.JL,B.JN,B.JP]),t.VO)
-B.JM=new A.fn(null,B.BY,B.ax,B.ix)
-B.Nn=new A.bS(null,B.JM,null,B.br,null,null,null,null,null)
+B.C7=A.a(s([B.JO,B.JL,B.JM,B.JP]),t.VO)
+B.JN=new A.fn(null,B.C7,B.ax,B.ix)
+B.Nn=new A.bS(null,B.JN,null,B.br,null,null,null,null,null)
 B.dL=new A.o(!0,null,null,null,null,null,48,null,null,2,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Np=new A.bS("Devpost",null,B.dL,null,null,null,null,null,null)
 B.Nq=new A.bS("Download Resum\xe9",null,B.dL,null,null,null,null,null,null)
@@ -75668,8 +75668,8 @@ B.Pa=new A.yJ(0,"checkbox")
 B.Pb=new A.yJ(1,"radio")
 B.Pc=new A.yJ(2,"toggle")
 B.yY=new A.J(67108864)
-B.C_=A.a(s([B.yY,B.M]),t.t_)
-B.Pd=new A.hN(B.C_)
+B.BZ=A.a(s([B.yY,B.M]),t.t_)
+B.Pd=new A.hN(B.BZ)
 B.Pe=new A.hN(null)
 B.iK=new A.o4(0,"backButton")
 B.iL=new A.o4(1,"nextButton")
